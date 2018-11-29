@@ -1,6 +1,6 @@
 # Setup MariaDB
 
-## Installation MariaDB (CentOS)
+## Installation MariaDB (CentOS 7)
 ```sh
 $ yum install mariadb-server
 $ systemctl start mariadb
