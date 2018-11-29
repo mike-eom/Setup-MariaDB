@@ -1,9 +1,11 @@
-# Setup-MariaDB
+# Setup MariaDB
 
 ## Installation MariaDB (CentOS)
 ```sh
 $ yum install mariadb-server
 $ systemctl start mariadb
-$ mysql_secure_installation
 $ systemctl enable mariadb
+$ mysql_secure_installation
+$ firewall-cmd --permanent --add-service=mysql
+$ firewall-cmd --reload
 ```
